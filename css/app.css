@@ -1,7 +1,19 @@
 #canvas{
-  border:2px solid red;
+  border:none;
   width:400px;
   height:10000px;
   margin:0 auto;
   position:relative;
+
+}
+
+#counter{
+  background-color:black;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  top:200px;
+  left:90px;
+  position:absolute;
+  z-index:-1;
 }
