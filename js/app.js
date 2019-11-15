@@ -5,26 +5,11 @@ window.onscroll = function(){
   var distance = window.pageYOffset;
 
 
+  if (distance < 800) {
 
-
-  if (distance > 300) {
-    counter.style.top = 200 + distance;
-
-
-
-  }else{
-    counter.style.backgroundColor = "black";
-    counter.style.top = 200 + distance + "px";
-    }
-
-
-    if (distance > 300 && distance < 600 ) {
-    counter.style.left = 90 + "px";
-
-  }else{
-    counter.style.left = 600 - distance + "px";
-
-    }
-
+  }
+  else (distance > 800 && distance < 4000){
+    carriage.style.left = distance * 1 + "px";
+  }
 
 };
