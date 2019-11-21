@@ -1,13 +1,17 @@
-body {
+/* body {
   overflow-x: hidden;
-}
+} */
 
-.container {
-  width: 100%;
+#container {
+  width: 800px;
+  margin:0 auto;
+  border: 1px solid red;
   height: 20000px;
+  overflow: hidden !important;
+  z-index: 5;
 }
 .box {
-  position: fixed;
+  position: absolute;
   width: 100px;
   height: 100px;
   background-color: red;
@@ -43,6 +47,7 @@ body {
   left: 800px;
   top: 800px;
 }
+
 #counter{
   background-color:green;
   width:200px;
