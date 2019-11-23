@@ -43,19 +43,18 @@ window.addEventListener('scroll', function() {
 switch (true) {
 
   case (scrollTop < 100):
-  counter.style.position = "absolute";
-  outfit.style.position="absolute"
-  counter.style.left = "450px";
-  outfit.style.left ="500px";
+  counter.style.left = "250px";
+  outfit.style.left ="250px";
   break;
 
   case (scrollTop < 900):
+
   // counter.style.position="fixed"
   // outfit.style.position="fixed"
   break;
 
   case (scrollTop < 1100):
-  counter.style.left = 1100 - scrollTop + "px";
+  counter.style.left = 1100 - scrollTop * 1.2 + "px";
   outfit.style.left =1100 - scrollTop + "px";
   break;
 

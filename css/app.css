@@ -3,12 +3,13 @@
 } */
 
 #container {
-  width: 800px;
+  position:relative;
+  overflow: hidden;
+  width: 700px;
   margin:0 auto;
   border: 1px solid red;
   height: 20000px;
-  overflow: hidden !important;
-  z-index: 5;
+  z-index: -16;
 }
 .box {
   position: absolute;
@@ -24,7 +25,7 @@
   width:100px;
   height:100px;
   top: 300px;
-  left: 500px;
+  left: 300px;
   position:absolute;
   z-index: -1;
 }
@@ -53,7 +54,7 @@
   width:200px;
   height:500px;
   top: 150px;
-  left: 450px;
+  left: 250px;
   position:absolute;
   z-index: -2;
 }
