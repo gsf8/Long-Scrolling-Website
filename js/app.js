@@ -10,7 +10,7 @@ var square2 = document.getElementsByClassName('square')[1];
 //coding reference from https://jsbin.com/waducab/3/edit?html,css,js,output//
 var canvas = document.getElementById("canvas");
 var counter = document.getElementById("counter");
-
+var twelve = document.getElementById("twelve");
 
 
 window.addEventListener('scroll', function() {
@@ -26,7 +26,7 @@ window.addEventListener('scroll', function() {
 
   counter.style.top = scrollTop+ 50+ 'px';
   outfit.style.top = scrollTop+ 50 + 'px';
-
+  twelve.style.top = scrollTop+ 50 + 'px';
 //   if (scrollTop < 900) {
 //   counter.style.position="fixed"
 //   outfit.style.position="fixed"
@@ -43,24 +43,30 @@ window.addEventListener('scroll', function() {
 switch (true) {
 
   case (scrollTop < 100):
-  counter.style.left = "250px";
-  outfit.style.left ="250px";
+  baby.style.top = "250px";
+  carriage.style.top ="300px";
+  twelve.style.top ="300px";
   break;
 
   case (scrollTop < 900):
 
-  // counter.style.position="fixed"
-  // outfit.style.position="fixed"
+
   break;
 
   case (scrollTop < 1100):
   counter.style.left = 1100 - scrollTop * 1.3 + "px";
-  outfit.style.left =1100 - scrollTop + "px";
+  outfit.style.left =1100 - scrollTop * 1.3 + "px";
+  break;
+
+  case (scrollTop < 2500):
+  twelve.style.left = 2500 - scrollTop * 1.3 + "px";
+
   break;
 
   default:
   counter.style.position = "absolute";
   outfit.style.position="absolute"
+  twelve.style.position="absolute"
 }
 
 
