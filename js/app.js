@@ -54,7 +54,7 @@ switch (true) {
   break;
 
   case (scrollTop < 1100):
-  counter.style.left = 1100 - scrollTop * 1.2 + "px";
+  counter.style.left = 1100 - scrollTop * 1.3 + "px";
   outfit.style.left =1100 - scrollTop + "px";
   break;
 
