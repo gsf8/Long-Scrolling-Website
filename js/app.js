@@ -43,7 +43,7 @@ window.onscroll = function(){
       }
     if(y > 18000){
       icon.src="images/twentythree.png"
-
+icon.style.top = 100 + y + "px";
 
      }
 
