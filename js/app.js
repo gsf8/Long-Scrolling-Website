@@ -20,29 +20,29 @@ window.onscroll = function(){
 
 
   if(y > 1000){
-    icon.src="../Images/zero.png"
+    icon.src="../images/zero.png"
 
    }else{
-   icon.src="../Images/baby.png";
+   icon.src="../images/baby.png";
 
    }
    if(y > 5000){
-     icon.src="../Images/four.png"
+     icon.src="../images/four.png"
 
 
     }
     if(y > 8000){
-      icon.src="../Images/ten.png"
+      icon.src="../images/ten.png"
 
 
      }
      if(y > 11000){
-       icon.src="../Images/sixteen.png"
+       icon.src="../images/sixteen.png"
        icon.style.top = 100 + y + "px";
 
       }
     if(y > 18000){
-      icon.src="../Images/twentythree.png"
+      icon.src="../images/twentythree.png"
 
 
      }
