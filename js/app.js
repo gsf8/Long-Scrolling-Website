@@ -1,3 +1,5 @@
+// Source used https://jsbin.com/yebemes/edit?html,css,js,console,output
+
 var canvas = document.getElementById("canvas");
 var counter = document.getElementById("counter");
 var icon = document.getElementById("icon");
@@ -43,7 +45,6 @@ window.onscroll = function(){
       }
     if(y > 18000){
       icon.src="images/twentythree.png"
-icon.style.top = 100 + y + "px";
 
      }
 
