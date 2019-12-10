@@ -2,10 +2,11 @@
 
 
 h1{
-  top:100px;
+  top:50px;
   left:100px;
   position: fixed;
   font-size:60px;
+  font-family: 'Fira Sans', sans-serif;
 }
 #canvas{
   border:none;
